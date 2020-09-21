@@ -1,0 +1,105 @@
+body{
+background: black;
+font-family: verdana, arial;
+font-size: 12px;
+padding: 0;
+margin: 0;
+}
+
+h1{
+color: #960000;
+font-size: 14px;
+}
+
+a img{
+border: 0;
+}
+	
+a:link{
+color: #960000;
+}
+
+a:visited{
+color: #960000;
+}
+
+a:active{
+color: #960000;
+}
+
+a:hover{
+color: #888888;
+text-decoration: none;
+}
+
+.dp a:link{
+color: white;
+}
+
+.dp a:visited{
+color: white;
+}
+
+.dp a:active{
+color: white;
+}
+
+.dp a:hover{
+color: white;
+text-decoration: none;
+}
+
+option{
+border: solid 1px #960000;
+}
+
+.menu{
+font-weight: bold;
+font-size: 12px;
+padding-top: 8px;
+padding-bottom: 15px;
+}
+
+.name{
+color: #75A064;
+font-weight: bold;
+}
+
+.active{
+color: #888888;
+}
+
+.content{
+font-size: 12px;
+padding: 29px 5px 5px 5px;
+margin: 5px;
+}
+
+.gallery{
+border: solid 1px black;
+background: white;
+padding-top: 10px;
+width: 620px;
+}
+
+.form td{
+font-weight: bold;
+}
+
+input, textarea, select{
+border: 1px solid #960000;
+}
+
+option{
+border: 0;
+}
+
+.buttons input{
+background: url(images/submit.png);
+background-repeat: no-repeat;
+border-width: 0;
+color: white;
+font-weight: bold;
+font-family: verdana, arial, 'sans serif';
+font-size: 12px;
+}
