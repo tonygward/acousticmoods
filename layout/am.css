@@ -28,7 +28,8 @@ h4{
     border: 1px solid black;
     padding: 5px;
     background: #ffe6e6;
-}
+    /* background-image: url('background.png'); */
+}    
 
 .img-logo {
     display: block;
