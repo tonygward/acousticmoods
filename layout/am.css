@@ -10,6 +10,10 @@ h1{
     font-size: 16px;
 }
 
+h4{
+    color: #960000;    
+}
+
 #container {
     margin:0 auto 1px auto;
     width:755px;
