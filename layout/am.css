@@ -48,6 +48,7 @@ h4{
 #menu-items a {
     text-decoration: none;
     padding-right: 20px;
+    color: white;
 }
 
 #menu-items a:visited{
