@@ -20,3 +20,5 @@ jobs:
           service_account_key: ${{ secrets.GCP_SA_KEY }}
       - run: gsutil -m rsync -d -c -r . gs://www.acousticmoods.co.uk
       - run: gsutil -m setmeta -h "Cache-Control:public, max-age=1800" gs://www.acousticmoods.co.uk/*.html
+      - run: gsutil -m rsync -d -c -r . gs://acousticmoods.co.uk
+      - run: gsutil -m setmeta -h "Cache-Control:public, max-age=1800" gs://acousticmoods.co.uk/*.html      
