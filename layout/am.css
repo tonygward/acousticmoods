@@ -71,3 +71,7 @@ a {
 #footer-content a:hover{
     color: gold;       
 }
+
+.bold-text {
+    color: #960000;
+}
