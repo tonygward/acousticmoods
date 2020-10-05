@@ -75,3 +75,20 @@ a {
 .bold-text {
     color: #960000;
 }
+
+.black-border {
+    border: solid 1px black;
+}
+
+.h1-sub-header {
+    font-weight: normal;
+}
+
+.samples-paragraph {
+    border-top: solid 1px black; 
+    padding-left: 30px;
+}
+
+.tracklist {
+    padding-left: 8px;
+}
